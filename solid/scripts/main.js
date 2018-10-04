@@ -35,6 +35,7 @@ $('#view').click(async function loadProfile() {
   const fullNote = store.any($rdf.sym(person), CARD('ns#organization-name'));
   $('#fullNote').text(fullNote && fullNote.value);
   
+  console.log(store);
   
   // Display their friends
   const friends = store.each($rdf.sym(person), FOAF('knows'));
