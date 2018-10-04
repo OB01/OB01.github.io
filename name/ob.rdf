@@ -10,6 +10,12 @@
   <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
 </foaf:PersonalProfileDocument>
 <foaf:Person rdf:ID="me">
+<cert:key>
+  <cert:RSAPublicKey>
+	<cert:modulus rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">dac95f5cc0b5c8e668d156192b40ca95020caddd8e937163e40ffc2826d78cb7926317325df39e287ff92acc9bbbbc561e2eb8b20bc2879139577ad4886c88f8dfb87432971470d3d6b0a84a39d1cab5a638bd3279e07df58bcbe4f81688fc2ec8bcf14815e99575288650ac6f72797951075a6fcc5f737ec6d9b74adc3a4b483befabbb20907cf96c810671b17a5ea62d8c51e691efa4b66ee83b3a0d3cac0066df1e924935b388b52fc3d55de8ee4f8b71206c8cbd41c5ecc939ddbc5b99a5e89e4139051fd776888510e875eed0417a2d6318108f86c957ef863944d166fa96a3cfd0c600be61f7e5bc6f88ab3b9491a735a3f0a0fe5c49e203f4f6a05dad</cert:modulus>
+	<cert:exponent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65537</cert:exponent>
+  </cert:RSAPublicKey>
+</cert:key>
 <foaf:name>Oliver Brown</foaf:name>
 <foaf:givenname>Oliver</foaf:givenname>
 <foaf:family_name>Brown</foaf:family_name>
