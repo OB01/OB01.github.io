@@ -34,6 +34,13 @@
 				// Define data object
 				var data = store.get('data') ? store.get('data') : {id:uuid()};
 				
+				if(store.get('data')){
+					data = store.get('data');
+				}else{
+					data = {id:uuid()};
+					store.set('data',data);
+				};
+				
 				// Post message
 				top.postMessage(data, window.location.hash.replace(/#/g,''));
 

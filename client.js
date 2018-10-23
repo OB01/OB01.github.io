@@ -31,7 +31,7 @@
 			message = "error: untrusted domain";
 		}
 		else {
-			message = JSON.stringify(evt.data);
+			message = JSON.stringify(evt.data.id);
 		}
 		console.log(message);
 	};
